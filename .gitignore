@@ -1,4 +1,7 @@
 vendor/*
+.gitignore
+.idea
+
 ajax
 config
 controladores
