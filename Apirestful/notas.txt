@@ -1,0 +1,47 @@
+API REST FUL
+Interactuen que los datos de una empresa
+
+API = interfaz de programacion de aplicaciones
+REST = transferencia de estado representacional
+API REST = interfaz de aplicaciones para transferir datos
+
+BD                 Peticiones http                Cliente final
+                   GET= tomar datos
+
+* Desarrolladas por programadores para programadores
+* Hay publicas y privadas
+* Gratuitas y pagas
+* Algunas apis estan protegidas con token de seguridad
+* Se construye con lenguajes del lado del servidor
+* Es indispensable crear una documentacin para su uso
+* STATUS: 404 no encontrado, 500 error interno del servidor, 200 solicitud exitosa
+* AUTORIZACION:
+OAUTH: es un estandar abierto que permite flujos simples de autorizacion para
+sitios web o aplicaciones informaticas. Es una simple combinacion de caracteres
+que se convierte en una poderosa contrasena.
+OAUTH 2: es un flujo de autorizacion especifico encapsulado en un token portador(bearer token)
+y se genera con la combinacion de unas credenciales que le suministra la empresa al
+cliente llamadas CLIENT ID y SECRET KEY.
+En algunas ocaciones utilizan el encriptado de tipo md5() o base64_encode() para combinar las
+credenciales del cliente y generar el Bearer Token.
+
+API KEY: es un identificador que sirve como el medio de autenticacion de un usuario para el
+uso de los servicios proporcionados de una API REST. Este valor es unico y el cliente debe
+solicitarlo al proveedor de la api.
+
+AUTENTICACION POR CABECERA (Headers): Es cuando el token de autorizacion debe ser pasado de
+forma oculta por cabeceras HTTP.
+
+AUTENTICACION POR URL: Es cuando el token de autorizacion debe ser pasado a traves de la URL.
+
+******base64encode
+
+API REST FULL= mas datos(su bd mas modificable)
+BD                 Peticiones http                Cliente final
+                   GET= tomar datos, show
+                   POST= create,
+                   PUT= update
+                   DELETE= delete
+
+
+https://eldevsin.site/fetch-api-la-guia-completa-y-olvidarse-de-axios/

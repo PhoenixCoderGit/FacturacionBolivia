@@ -1,0 +1,10 @@
+vendor/*
+ajax
+config
+controladores
+extensiones
+modelos
+Notas
+vistas
+.htaccess
+index.php
